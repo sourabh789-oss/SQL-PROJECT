@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+
+
+    <div class="form">
+      
+        <h1>Registration Form</h1>
+        <form action="connect.php" id="form-content" method="POST">
+            <div> <label for="firstname">Firstname:</label>
+                <input type="text" id="firstname" name="firstname" required>
+            </div>
+
+            <div>
+                <label for="lastname">Lastname:</label>
+                <input type="text" id="lastname" name="lastname" required>
+            </div>
+
+            <section class="gender">
+         <input type="radio" name="gender" id="male" value="male">
+         <label for="male">male</label>
+         <input type="radio" name="gender" id="female" value="female">
+         <label for="female">female</label>
+        </section>
+        
+
+            <div>
+                <label for="mobileno">MobileNo:</label>
+                <input type="number" id="mobileo" name="mobileno" required>
+            </div>
+
+            <div>
+                <label for="Address">Address:</label>
+                <input type="text" id="Address" name="Address">
+            </div>
+            <div>
+                <label for="college">College:</label>
+                <select name="college" id="college" required>
+                    <option value="none"></option>
+                    <option value="cdgi">Chameli Devi Group of institution</option>
+                    <option value="medicaps">Medicaps University</option>
+                    <option value="swami vivekanand">Swami Vivekanand Group of Institution</option>
+                    <option value="vaishnav">Vaishnav Vidhyapeeth vishvidhalaya </option>
+                    <option value="holkar">Holkar Science College</option>
+
+                </select>
+            </div>
+
+            <div>
+                <label for="branch">Branch:</label>
+                <select name="branch" id="branch" required>
+                    <option value=""></option>
+                    <option value="CSIT">CSIT</option>
+                    <option value="CS">CS</option>
+                    <option value="ME">ME</option>
+                    <option value="AD">AD</option>
+                    
+
+
+                </select>
+            </div>
+            <div>
+                <label for="school">School:</label>
+                <select name="school" id="school" required>
+                    <option value="none"></option>
+                    <option value="merit">Merit Higher Secondary School</option>
+                    <option value="dps">Delhi Public School</option>
+                </select>
+
+
+            </div>
+
+
+            <button>Submit</button>
+
+    </div>
+
+
+
+
+    </form>
+</body>
+
+</html>

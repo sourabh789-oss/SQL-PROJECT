@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+ background-image:url("https://t4.ftcdn.net/jpg/01/19/11/55/360_F_119115529_mEnw3lGpLdlDkfLgRcVSbFRuVl6sMDty.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position-x: top bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+ 
+
+.form{
+border: none;
+background-color: white;
+width: 50vw;
+height: 95vh;
+padding:34px;
+box-sizing: border-box;
+/* position:absolute; */
+/* z-index: 10;} */
+} 
+h1{
+    text-align: center;
+    margin-bottom: 19px;
+    color: rgb(15, 30, 88);
+}
+
+.gender{
+    display: flex;
+    column-gap:12px ;
+    text-transform: capitalize;
+    font-weight: 300;
+}
+
+#form-content{
+ display: flex;
+flex-direction: column;
+    justify-content: center;
+    align-items:start;
+    row-gap: 25px;
+}
+
+#form-content label{
+    font-weight: 800;
+    font-size: 17px;
+}
+ 
+#form-content button{
+    margin: 7px auto;
+    border:none;
+    color: white;
+    font-weight: 700;
+    background-color: blue;
+    border-radius: 13px;
+    padding: 12px 20px;
+}
+
+#form-content div input{
+width: 34vw;
+height: 5vh;
+border:2px solid grey;
+border-radius: 7px;
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: 500;
+ font-size: 19px;
+}
